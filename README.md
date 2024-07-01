@@ -19,7 +19,7 @@ management with pagination support.
 
 2. Create a virtual environment and activate it:
     ```
-    python -m venv venv
+    python3 -m venv venv
     source venv/bin/activate
     ```
 
