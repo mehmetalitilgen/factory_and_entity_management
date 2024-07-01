@@ -82,3 +82,8 @@ def create_app():
     app.register_blueprint(factory_bp)
     app.register_blueprint(entity_bp)
     return app
+
+
+if __name__ == "__main__":
+    app = create_app()
+    app.run(debug=True)
